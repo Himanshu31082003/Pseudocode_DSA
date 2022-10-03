@@ -22,7 +22,7 @@ struct Library
 	char bookTitle[50];
 	char bookAuthor[50];
 	float bookPrice;
-	int bookIsIssued;
+	int bookIsIssued
 };
 void sortBooksInOrderAccessionNumber(struct Library myLibrary[],int size) 
 {
