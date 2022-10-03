@@ -82,5 +82,5 @@ int main()
 	printf("\n\n");
 	RemoveDuplicateUnsorted(first);
 	Display(first);
-	return 0
+	return 0;
 }
