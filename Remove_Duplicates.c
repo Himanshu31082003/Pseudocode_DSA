@@ -4,6 +4,7 @@
 struct Node
 {
 	int data;
+	cf
 	struct Node *next;
 }*first=NULL,*second=NULL,*third=NULL;
 void Display(struct Node *p)
