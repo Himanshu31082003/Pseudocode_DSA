@@ -3,7 +3,7 @@
 #include <stdlib.h>
 struct Node
 {
-	int data1;
+	int data;
 	struct Node *next;
 }*first=NULL,*second=NULL,*third=NULL;
 void Display(struct Node *p)
