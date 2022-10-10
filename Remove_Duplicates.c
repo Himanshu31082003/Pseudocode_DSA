@@ -75,7 +75,7 @@ void RemoveDuplicateUnsorted(struct Node *p)
 }
 int main()
 {
-	int A[]={10,20,20,40,50,20,50,60};
+	int A[]={110,20,20,40,50,20,50,60};
 	create(A,8);
 	RemoveDuplicateSorted(first);
 	Display(first);
